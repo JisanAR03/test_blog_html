@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+#header-bg {
+    height: 100vh;
+    background-size: 400%;
+    background-image: url(https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #2b2c3d9c;
+    background-blend-mode: luminosity;
+}
+
+.nav-item{
+    padding: 0em 2em;
+}
+
+.nav-item-last{
+    padding: 0em 0em;
+}
+
+nav .navbar-nav li a{
+    color: #dee4cb !important;
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav .navbar-nav li a:hover {
+    color: white !important;
+}
+
+#logo span a {
+    color: #dee4cb !important;
+}
+
+#logo span a:hover {
+    color: white !important;
+}
+
+#first-page {
+    color: #fffefede;
+    background-color: #2f343ea8;
+}
+
+#post-header {
+    font-size: 2.5em;
+    font-family: cursive;
+}
+
+#post {
+    background-color: #97989673;
+}
+
+
+
+/* end of index.html css */
+
+
+
+#header-bg-about {
+    height: 100vh;
+    background-size: 400%;
+    background-image: url(https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #2b2c3d9c;
+    background-blend-mode: luminosity;
+}
+
+/* end of about.html css */
+
+
+#header-bg-contact {
+    height: 100vh;
+    background-size: 400%;
+    background-image: url(https://images.unsplash.com/photo-1510906594845-bc082582c8cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=844&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000000f3;
+    background-blend-mode: luminosity;
+}
+
+/* end of contact.html css */
+
+#header-bg-post {
+    height: 100vh;
+    background-size: 400%;
+    background-image: url(https://images.unsplash.com/photo-1512682479844-0fa51f42b4a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000000f3;
+    background-blend-mode: luminosity;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* If the screen size is 1200px wide or more, set the font-size to 1.35 em */
+@media (min-width: 1200px) {
+    .responsive-font-example {
+      font-size: 1.35em !important;
+      font-weight: bold;
+    }
+  }
+/* If the screen size is smaller than 1200px, set the font-size to 1.25em */
+@media (max-width: 1200px) {
+    .responsive-font-example  {
+       font-size: 1.25em !important;
+       font-weight: bold;
+    }
+   }
+/* If the screen size is smaller than 1080px, set the font-size to 1.1em */
+@media (max-width: 1080px) {
+    .responsive-font-example  {
+       font-size: 1.1em !important;
+       font-weight: bold;
+    }
+   }
+  /* If the screen size is smaller than 720px, set the font-size to 0.8em */
+  @media (max-width: 720px) {
+    .responsive-font-example {
+      font-size: 0.8em !important;
+      font-weight: bold;
+    }
+  }
+

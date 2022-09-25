@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExploreTech</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="header-bg-post">
+        <header class="mx-4 p-3 text-white vh-100">
+            <div class="d-flex justify-content-between align-items-center ">
+                <div id="logo" class="d-none d-lg-inline">
+                    <span class="h3"><a class="text-decoration-none" href="index.html">ExploreTech</a></span>
+                </div>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <div class="navbar-brand">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-head">
+                                <span class="navbar-toggler-icon bg-light"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbar-head">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item"><a class="nav-link" id="first-nav" href="index.html">Home</a></li>
+                                    <!-- always add js script for dropdows menu -->
+                                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="dropmenu-one" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Post</a>
+                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropmenu-one">
+                                        <li class="dropdown-item"><a class="text-decoration-none text-light" href="1stpost.html">1st-Post</a></li>
+                                        <li class="dropdown-item"><a class="text-decoration-none text-light" href="2ndpost.html">2nd-Post</a</li>
+                                        <li class="dropdown-item"><a class="text-decoration-none text-light" href="3rdpost.html">3rd-Post</a</li>
+                                    </ul>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                                    <li class="nav-item nav-item-last d-none d-lg-inline"><a class="nav-link" href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- this is the end of logo and nav-item -->
+            <hr class="mb-lg-2">
+            <div class="w-75 justify-content-center align-content-center row m-auto" >
+                <div class="h2 text-white mb-3 col-12">Microsoft Edge now automatically generates image labels for screen readers</div>
+                <img class="img-fluid img-thumbnail w-75" src="https://cdn.mos.cms.futurecdn.net/EJzvgPPkMitHarsu7ByBVR-970-80.jpg.webp" alt="microsoft edge">
+           </div>
+       </header>
+       <!-- this is the end of header -->
+    </div>
+    <div id="post" class="rounded-3 p-5 mb-5 mx-5 mt-2">
+        <div class="w-75 m-auto justify-content-center align-content-center">
+            <details class="h1 text-secondary">Details:</details>
+            <div class="fs-5 fst-normal">
+                <div class="p-3 mb-4">
+                    More than half of the images on the web are missing alt text, according to Microsoft. Image labels (alternative text) are key for many who are blind or low vision, as they provide screen readers with text to read aloud. Microsoft is now attempting to fill the gap with auto-generated alt text for images on the web.
+
+                </div>
+                <div class="p-3 mb-4">
+                    Existing screen readers currently read out “unlabeled graphic” if there’s no description of an image at all which isn’t very helpful. Microsoft Edge has now been updated to improve the screen reader experience for all of the images on the web without alt text.
+                </div>
+                <div class="p-3 mb-4">
+                    “When a screen reader finds an image without a label, that image can be automatically processed by machine learning (ML) algorithms to describe the image in words and capture any text it contains,” explains Travis Leithead, a program manager on Microsoft’s Edge platform team. “The algorithms are not perfect, and the quality of the descriptions will vary, but for users of screen readers, having some description for an image is often better than no context at all.”
+
+                </div>
+                <div class="p-3 mb-4">
+                    Microsoft Edge can now send unlabeled images to its Azure computer vision API for processing, which is governed by Microsoft’s privacy promises. The vision API creates alt text in English, Spanish, Japanese, Portuguese, or Chinese Simplified which can then be deciphered by screen readers. Microsoft Edge won’t attempt to add automatic labels to images that are smaller than 50 x 50 pixels, very large image files, images that are marked as decorative, or images that the Vision API categorizes as pornographic, gory, or sexually suggestive.
+                </div>
+                <div class="p-3 mb-4">
+                    “This feature is still new, and we know that we are not done,” says Leithead. “We’ve already found some ways to make this feature even better, such as when images do have a label, but that label is not very helpful. Continuous image recognition and algorithm improvements will also refine the quality of the service.”
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="row bg-secondary bg-gradient d-flex justify-content-between p-5">
+        <div class="col-5 ps-5 text-black-50">
+            <div class="h3 fst-italic mb-4 text-decoration-underline">
+                Something About This Site
+            </div>
+            <div class="fs-5 p-2 fst-italic">
+                this site was created for providing knowledge about tech . And we always try to satisfy our users .this site creates by a group of computer technology students. If you want to know about this group,u can take a tour on our <a class="text-decoration-none text-light" href="About.html">About</a> page.
+            </div>
+            <div class="py-3 mt-2 text-light fs-6 fst-normal">
+                © 2022 by The Explorer. Created with CMT-B team.
+            </div>
+        </div>
+        <span class="col-2"></span>
+        <div class="col-5">
+            <div class="fs-4 fst-italic mb-4">
+                You can type your email below and click on the send button for getting the latest news by your email:
+            </div>
+            <form class="form-floating" action="email.php" method="post">
+                <input type="email" class="form-control" id="inputemail" placeholder="name@example.com" value="test@example.com">
+                <label for="inputemail">Type ur mail</label>
+                <button class="btn bg-gradient mt-4 px-4 text-light btn-primary">Send</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
